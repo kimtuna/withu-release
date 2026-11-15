@@ -6,7 +6,7 @@
 
 **[⬇ 다운로드 (Releases)](https://github.com/kimtuna/withu-release/releases/latest)** — macOS (Apple Silicon · Intel) / Windows 64bit
 
-> 개발 중인 버전입니다 (v0.4.6). 소스 코드는 비공개이고, 이 저장소에는 실행 파일과 소개만 있습니다.
+> 개발 중인 버전입니다 (v0.4.7). 소스 코드는 비공개이고, 이 저장소에는 실행 파일과 소개만 있습니다.
 
 ---
 
