@@ -79,12 +79,12 @@
 ## 설치 · 실행
 
 **macOS**
-1. `Yurang-mac-…zip` 을 받아 압축을 푼다 → `유랑.app`
+1. `Yurang-mac-…zip` 을 받아 압축을 풀고 `유랑.app` 을 **응용 프로그램(Applications) 폴더로 옮긴다** (다운로드 폴더에서 바로 열면 맥이 경로를 바꿔 잘 안 열린다)
 2. 애플 개발자 서명(공증)이 없어 처음엔 맥이 막는다. 한 번만 허락하면 된다:
    - 더블클릭 → "확인할 수 없습니다" 창이 뜨면 **완료**
    - **시스템 설정 → 개인정보 보호 및 보안** → 아래쪽 "유랑이(가) 차단되었습니다" 옆 **그래도 열기** → 암호 입력
    - (macOS 15 이상은 우클릭 → 열기로는 안 열린다)
-   - 또는 터미널에서 `xattr -dr com.apple.quarantine ~/Downloads/유랑.app` 뒤 더블클릭
+   - 또는 터미널에서 `xattr -dr com.apple.quarantine /Applications/유랑.app` 뒤 더블클릭
 
 **Windows**
 1. `Yurang-windows-…zip` 을 받아 압축을 푼다 → `Yurang.exe` (같이 든 `.dll` 두 개를 같은 폴더에 둔다)
