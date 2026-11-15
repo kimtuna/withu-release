@@ -6,7 +6,7 @@
 
 **[⬇ 다운로드 (Releases)](https://github.com/kimtuna/withu-release/releases/latest)** — macOS (Apple Silicon · Intel) / Windows 64bit
 
-> 개발 중인 버전입니다 (v0.4.5). 소스 코드는 비공개이고, 이 저장소에는 실행 파일과 소개만 있습니다.
+> 개발 중인 버전입니다 (v0.4.6). 소스 코드는 비공개이고, 이 저장소에는 실행 파일과 소개만 있습니다.
 
 ---
 
@@ -87,8 +87,9 @@
    - 또는 터미널에서 `xattr -dr com.apple.quarantine /Applications/유랑.app` 뒤 더블클릭
 
 **Windows**
-1. `Yurang-windows-…zip` 을 받아 압축을 푼다 → `Yurang.exe` (같이 든 `.dll` 두 개를 같은 폴더에 둔다)
+1. `Yurang-windows-…zip` 을 받아 압축을 푼다 → `Yurang` 폴더 안의 `Yurang.exe` (같은 폴더의 `Yurang.pck`·`.dll` 둘과 함께 둔다)
 2. SmartScreen 경고가 뜨면 **추가 정보 → 실행**
+   - 압축을 풀었는데 `Yurang.exe` 가 없으면 윈도우 백신(디펜더)이 잘못 잡아 지운 것: **Windows 보안 → 바이러스 및 위협 방지 → 보호 기록** 에서 유랑을 **허용(복원)** 하거나, 받은 폴더를 예외에 넣고 다시 푼다 (서명 없는 게임이라 생기는 오진)
 
 **같이 하기 (스팀)**
 - 스팀을 켜 두고 실행한다. 아직 정식 스팀 앱이 아니라 Valve 시험용 앱(Spacewar)으로 연결해서, 스팀 친구 목록에는 "Spacewar 플레이 중"으로 보인다.
